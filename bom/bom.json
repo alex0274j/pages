@@ -59,7 +59,7 @@
       "purl": "pkg:npm/%40minebea/fusion-auth@0.1.0",
       "externalReferences": [
         {
-          "url": "https://github.com/alex0274j/pages",
+          "url": "https://alex0274j.github.io/pages",
           "type": "website",
           "comment": "as detected from PackageJson property \"homepage\""
         }

@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/alex0274j/pages/static/css/main.698737a5.css",
-    "main.js": "/alex0274j/pages/static/js/main.559c976a.js",
-    "static/js/787.c3f7bbd5.chunk.js": "/alex0274j/pages/static/js/787.c3f7bbd5.chunk.js",
-    "static/media/Inter-Bold.woff": "/alex0274j/pages/static/media/Inter-Bold.b755d2e570b1329b527d.woff",
-    "static/media/Inter-ExtraBold.woff": "/alex0274j/pages/static/media/Inter-ExtraBold.b10df6acf0d5f64b6b2b.woff",
-    "static/media/Inter-SemiBold.woff": "/alex0274j/pages/static/media/Inter-SemiBold.945e781bc80fb04da8ee.woff",
-    "static/media/Inter-Medium.woff": "/alex0274j/pages/static/media/Inter-Medium.19051ee52164b5e67119.woff",
-    "static/media/Inter-ExtraLight.woff": "/alex0274j/pages/static/media/Inter-ExtraLight.2aab02712763e8b71387.woff",
-    "static/media/Inter-Light.woff": "/alex0274j/pages/static/media/Inter-Light.29452bea57e381e3ecbb.woff",
-    "static/media/Inter-Black.woff": "/alex0274j/pages/static/media/Inter-Black.6d9cd60f106b28fda484.woff",
-    "static/media/Inter-Thin.woff": "/alex0274j/pages/static/media/Inter-Thin.932fc329a069059cff4d.woff",
-    "static/media/Inter-Regular.woff": "/alex0274j/pages/static/media/Inter-Regular.2e3d2d89837bafe0fcb2.woff",
-    "bom/bom.xml": "/alex0274j/pages/bom/bom.xml",
-    ".well-known/sbom": "/alex0274j/pages/.well-known/sbom",
-    "bom/bom.json": "/alex0274j/pages/bom/bom.json",
-    "static/media/InterWeight-500.otf": "/alex0274j/pages/static/media/InterWeight-500.c3b895e2a1ceab2d731d.otf",
-    "index.html": "/alex0274j/pages/index.html",
-    "main.698737a5.css.map": "/alex0274j/pages/static/css/main.698737a5.css.map",
-    "main.559c976a.js.map": "/alex0274j/pages/static/js/main.559c976a.js.map",
-    "787.c3f7bbd5.chunk.js.map": "/alex0274j/pages/static/js/787.c3f7bbd5.chunk.js.map"
+    "main.css": "/pages/static/css/main.7061fa81.css",
+    "main.js": "/pages/static/js/main.e617b88f.js",
+    "static/js/787.c3f7bbd5.chunk.js": "/pages/static/js/787.c3f7bbd5.chunk.js",
+    "static/media/Inter-Bold.woff": "/pages/static/media/Inter-Bold.b755d2e570b1329b527d.woff",
+    "static/media/Inter-ExtraBold.woff": "/pages/static/media/Inter-ExtraBold.b10df6acf0d5f64b6b2b.woff",
+    "static/media/Inter-SemiBold.woff": "/pages/static/media/Inter-SemiBold.945e781bc80fb04da8ee.woff",
+    "static/media/Inter-Medium.woff": "/pages/static/media/Inter-Medium.19051ee52164b5e67119.woff",
+    "static/media/Inter-ExtraLight.woff": "/pages/static/media/Inter-ExtraLight.2aab02712763e8b71387.woff",
+    "static/media/Inter-Light.woff": "/pages/static/media/Inter-Light.29452bea57e381e3ecbb.woff",
+    "static/media/Inter-Black.woff": "/pages/static/media/Inter-Black.6d9cd60f106b28fda484.woff",
+    "static/media/Inter-Thin.woff": "/pages/static/media/Inter-Thin.932fc329a069059cff4d.woff",
+    "static/media/Inter-Regular.woff": "/pages/static/media/Inter-Regular.2e3d2d89837bafe0fcb2.woff",
+    "bom/bom.xml": "/pages/bom/bom.xml",
+    ".well-known/sbom": "/pages/.well-known/sbom",
+    "bom/bom.json": "/pages/bom/bom.json",
+    "static/media/InterWeight-500.otf": "/pages/static/media/InterWeight-500.c3b895e2a1ceab2d731d.otf",
+    "index.html": "/pages/index.html",
+    "main.7061fa81.css.map": "/pages/static/css/main.7061fa81.css.map",
+    "main.e617b88f.js.map": "/pages/static/js/main.e617b88f.js.map",
+    "787.c3f7bbd5.chunk.js.map": "/pages/static/js/787.c3f7bbd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.698737a5.css",
-    "static/js/main.559c976a.js"
+    "static/css/main.7061fa81.css",
+    "static/js/main.e617b88f.js"
   ]
 }
