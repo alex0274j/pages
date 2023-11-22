@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1">
+  <metadata>
+    <tools>
+      <tool>
+        <vendor>@cyclonedx</vendor>
+        <name>cyclonedx-library</name>
+        <version>6.0.0</version>
+        <externalReferences>
+          <reference type="issue-tracker">
+            <url>https://github.com/CycloneDX/cyclonedx-javascript-library/issues</url>
+            <comment>as detected from PackageJson property "bugs.url"</comment>
+          </reference>
+          <reference type="vcs">
+            <url>git+https://github.com/CycloneDX/cyclonedx-javascript-library.git</url>
+            <comment>as detected from PackageJson property "repository.url"</comment>
+          </reference>
+          <reference type="website">
+            <url>https://github.com/CycloneDX/cyclonedx-javascript-library#readme</url>
+            <comment>as detected from PackageJson property "homepage"</comment>
+          </reference>
+        </externalReferences>
+      </tool>
+      <tool>
+        <vendor>@cyclonedx</vendor>
+        <name>webpack-plugin</name>
+        <version>3.8.2</version>
+        <externalReferences>
+          <reference type="issue-tracker">
+            <url>https://github.com/CycloneDX/cyclonedx-webpack-plugin/issues</url>
+            <comment>as detected from PackageJson property "bugs.url"</comment>
+          </reference>
+          <reference type="vcs">
+            <url>git+https://github.com/CycloneDX/cyclonedx-webpack-plugin.git</url>
+            <comment>as detected from PackageJson property "repository.url"</comment>
+          </reference>
+          <reference type="website">
+            <url>https://github.com/CycloneDX/cyclonedx-webpack-plugin#readme</url>
+            <comment>as detected from PackageJson property "homepage"</comment>
+          </reference>
+        </externalReferences>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="pkg:npm/%40minebea/fusion-auth@0.1.0">
+      <group>@minebea</group>
+      <name>fusion-auth</name>
+      <version>0.1.0</version>
+      <purl>pkg:npm/%40minebea/fusion-auth@0.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/alex0274j/pages</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime">
+      <author>The Babel Team</author>
+      <group>@babel</group>
+      <name>runtime</name>
+      <version>7.22.11</version>
+      <description>babel's modular runtime helpers</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/babel/babel/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/babel/babel.git#packages/babel-runtime</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://babel.dev/docs/en/next/babel-runtime</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40minebea/hmi@0.3.0-alpha.351">
+      <author>Minebea Intec GmbH</author>
+      <group>@minebea</group>
+      <name>hmi</name>
+      <version>0.3.0-alpha.351</version>
+      <description>Minebea Intec reusable WEB-HMI</description>
+      <licenses>
+        <license>
+          <name/>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40minebea/hmi@0.3.0-alpha.351</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap">
+      <author>Progress</author>
+      <group>@progress</group>
+      <name>kendo-theme-bootstrap</name>
+      <version>5.4.0</version>
+      <description>Bootstrap theme for Kendo UI</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/telerik/kendo-themes/issues/new?labels=bug,T:Bootstrap&amp;template=bug_report.md</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/telerik/kendo-themes.git#packages/bootstrap</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/telerik/kendo-themes/tree/master/packages/bootstrap</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <author>Paul Henschel</author>
+      <group>@react-spring</group>
+      <name>animated</name>
+      <version>9.7.3</version>
+      <description>Animated component props for React</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/pmndrs/react-spring/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/pmndrs/react-spring.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pmndrs/react-spring#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <author>Paul Henschel</author>
+      <group>@react-spring</group>
+      <name>core</name>
+      <version>9.7.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/pmndrs/react-spring/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/pmndrs/react-spring.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pmndrs/react-spring#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <author>Paul Henschel</author>
+      <group>@react-spring</group>
+      <name>shared</name>
+      <version>9.7.3</version>
+      <description>Globals and shared modules</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/pmndrs/react-spring/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/pmndrs/react-spring.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pmndrs/react-spring#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <author>Paul Henschel</author>
+      <group>@react-spring</group>
+      <name>types</name>
+      <version>9.7.3</version>
+      <description>Internal package with TypeScript stuff</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/pmndrs/react-spring/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/pmndrs/react-spring.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pmndrs/react-spring#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <author>Paul Henschel</author>
+      <group>@react-spring</group>
+      <name>web</name>
+      <version>9.7.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/pmndrs/react-spring/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/pmndrs/react-spring.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pmndrs/react-spring#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git">
+      <author>Mark Erikson</author>
+      <group>@reduxjs</group>
+      <name>toolkit</name>
+      <version>1.9.5</version>
+      <description>The official, opinionated, batteries-included toolset for efficient Redux development</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/reduxjs/redux-toolkit/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/reduxjs/redux-toolkit.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://redux-toolkit.js.org</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router">
+      <author>Remix Software</author>
+      <group>@remix-run</group>
+      <name>router</name>
+      <version>1.8.0</version>
+      <description>Nested/Data-driven/Framework-agnostic Routing</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/remix-run/react-router/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/remix-run/react-router.git#packages/router</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/remix-run/react-router#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git">
+      <author>Jason Quense</author>
+      <group>@restart</group>
+      <name>hooks</name>
+      <version>0.4.11</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/react-restart/hooks/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/jquense/react-common-hooks.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/react-restart/hooks#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git">
+      <author>Jason Quense</author>
+      <group>@restart</group>
+      <name>ui</name>
+      <version>1.6.6</version>
+      <description>Utilities for creating robust overlay components</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/react-restart/ui/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/react-restart/ui.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/react-restart/ui#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git">
+      <author>Jed Watson</author>
+      <name>classnames</name>
+      <version>2.3.2</version>
+      <description>A simple utility for conditionally joining classNames together</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/JedWatson/classnames/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/JedWatson/classnames.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/JedWatson/classnames#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git">
+      <author>Tobias Koppers @sokra</author>
+      <name>css-loader</name>
+      <version>6.8.1</version>
+      <description>css loader module for webpack</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/webpack-contrib/css-loader/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/webpack-contrib/css-loader.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/webpack-contrib/css-loader</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git">
+      <author>Jason Quense</author>
+      <name>dom-helpers</name>
+      <version>5.2.1</version>
+      <description>tiny modular DOM lib for ie9+</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/react-bootstrap/dom-helpers/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/react-bootstrap/dom-helpers.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/react-bootstrap/dom-helpers#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git">
+      <author>Michael Ridgway</author>
+      <name>hoist-non-react-statics</name>
+      <version>3.3.2</version>
+      <description>Copies non-react specific statics from a child component to a parent component</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/mridgway/hoist-non-react-statics/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git://github.com/mridgway/hoist-non-react-statics.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/mridgway/hoist-non-react-statics#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git">
+      <author>Michel Weststrate</author>
+      <name>immer</name>
+      <version>9.0.21</version>
+      <description>Create your next immutable state by mutating the current one</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/immerjs/immer/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/immerjs/immer.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/immerjs/immer#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git">
+      <name>prop-types</name>
+      <version>15.8.1</version>
+      <description>Runtime type checking for React props and similar objects.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/facebook/prop-types/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/facebook/prop-types.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://facebook.github.io/react/</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git">
+      <author>Stephen J. Collings</author>
+      <name>react-bootstrap</name>
+      <version>2.3.1</version>
+      <description>Bootstrap 5 components built with React</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/react-bootstrap/react-bootstrap/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/react-bootstrap/react-bootstrap.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://react-bootstrap.github.io/</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom">
+      <name>react-dom</name>
+      <version>18.2.0</version>
+      <description>React package for working with the DOM.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/facebook/react/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/facebook/react.git#packages/react-dom</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://reactjs.org/</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is">
+      <name>react-is</name>
+      <version>16.13.1</version>
+      <description>Brand checking of React Elements.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/facebook/react/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/facebook/react.git#packages/react-is</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://reactjs.org/</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is">
+      <name>react-is</name>
+      <version>18.2.0</version>
+      <description>Brand checking of React Elements.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/facebook/react/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/facebook/react.git#packages/react-is</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://reactjs.org/</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git">
+      <author>Dan Abramov</author>
+      <name>react-redux</name>
+      <version>8.1.2</version>
+      <description>Official React bindings for Redux</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/reduxjs/react-redux/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/reduxjs/react-redux.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/reduxjs/react-redux</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom">
+      <author>Remix Software</author>
+      <name>react-router-dom</name>
+      <version>6.15.0</version>
+      <description>Declarative routing for React web applications</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/remix-run/react-router/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/remix-run/react-router.git#packages/react-router-dom</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/remix-run/react-router#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router">
+      <author>Remix Software</author>
+      <name>react-router</name>
+      <version>6.15.0</version>
+      <description>Declarative routing for React</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/remix-run/react-router/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/remix-run/react-router.git#packages/react-router</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/remix-run/react-router#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <author>Paul Henschel</author>
+      <name>react-spring</name>
+      <version>9.7.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/pmndrs/react-spring/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/pmndrs/react-spring.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/pmndrs/react-spring#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git">
+      <name>react-transition-group</name>
+      <version>4.4.5</version>
+      <description>A react component toolset for managing animations</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/reactjs/react-transition-group/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/reactjs/react-transition-group.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/reactjs/react-transition-group#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react">
+      <name>react</name>
+      <version>18.2.0</version>
+      <description>React is a JavaScript library for building user interfaces.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/facebook/react/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/facebook/react.git#packages/react</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://reactjs.org/</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git">
+      <name>redux-persist</name>
+      <version>6.0.0</version>
+      <description>persist and rehydrate redux stores</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/rt2zz/redux-persist/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/rt2zz/redux-persist.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/rt2zz/redux-persist#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git">
+      <author>Dan Abramov</author>
+      <name>redux-thunk</name>
+      <version>2.4.2</version>
+      <description>Thunk middleware for Redux.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/reduxjs/redux-thunk/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/reduxjs/redux-thunk.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/reduxjs/redux-thunk</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git">
+      <name>redux</name>
+      <version>4.2.1</version>
+      <description>Predictable state container for JavaScript apps</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/reduxjs/redux/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/reduxjs/redux.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>http://redux.js.org</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git">
+      <name>reselect</name>
+      <version>4.1.8</version>
+      <description>Selectors for Redux.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/reduxjs/reselect/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/reduxjs/reselect.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/reduxjs/reselect#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler">
+      <name>scheduler</name>
+      <version>0.23.0</version>
+      <description>Cooperative scheduler for the browser environment.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/facebook/react/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/facebook/react.git#packages/scheduler</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://reactjs.org/</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store">
+      <name>use-sync-external-store</name>
+      <version>1.2.0</version>
+      <description>Backwards compatible shim for React's useSyncExternalStore. Works with any React that supports hooks.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/facebook/react/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/facebook/react.git#packages/use-sync-external-store</url>
+          <comment>as detected from PackageJson property "repository.url" and "repository.directory"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/facebook/react#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:npm/web-vitals@2.1.4?vcs_url=git%2Bhttps%3A//github.com/GoogleChrome/web-vitals.git">
+      <author>Philip Walton</author>
+      <name>web-vitals</name>
+      <version>2.1.4</version>
+      <description>Easily measure performance metrics in JavaScript</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:npm/web-vitals@2.1.4?vcs_url=git%2Bhttps%3A//github.com/GoogleChrome/web-vitals.git</purl>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleChrome/web-vitals/issues</url>
+          <comment>as detected from PackageJson property "bugs.url"</comment>
+        </reference>
+        <reference type="vcs">
+          <url>git+https://github.com/GoogleChrome/web-vitals.git</url>
+          <comment>as detected from PackageJson property "repository.url"</comment>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleChrome/web-vitals#readme</url>
+          <comment>as detected from PackageJson property "homepage"</comment>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
+    <dependency ref="pkg:npm/%40minebea/fusion-auth@0.1.0">
+      <dependency ref="pkg:npm/%40minebea/hmi@0.3.0-alpha.351"/>
+      <dependency ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap"/>
+      <dependency ref="pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git"/>
+      <dependency ref="pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+      <dependency ref="pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git"/>
+      <dependency ref="pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom"/>
+      <dependency ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router"/>
+      <dependency ref="pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+      <dependency ref="pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git"/>
+      <dependency ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40minebea/hmi@0.3.0-alpha.351">
+      <dependency ref="pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"/>
+      <dependency ref="pkg:npm/%40minebea/fusion-auth@0.1.0"/>
+      <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap">
+      <dependency ref="pkg:npm/%40minebea/fusion-auth@0.1.0"/>
+      <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <dependency ref="pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <dependency ref="pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+    <dependency ref="pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <dependency ref="pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git">
+      <dependency ref="pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git"/>
+      <dependency ref="pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git"/>
+      <dependency ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"/>
+      <dependency ref="pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
+    <dependency ref="pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git">
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git">
+      <dependency ref="pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git"/>
+      <dependency ref="pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git"/>
+    <dependency ref="pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"/>
+    <dependency ref="pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git"/>
+    <dependency ref="pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git">
+      <dependency ref="pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"/>
+    </dependency>
+    <dependency ref="pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git"/>
+    <dependency ref="pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git"/>
+    <dependency ref="pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git">
+      <dependency ref="pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git"/>
+      <dependency ref="pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git"/>
+      <dependency ref="pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git"/>
+      <dependency ref="pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git"/>
+      <dependency ref="pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+      <dependency ref="pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom">
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+      <dependency ref="pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler"/>
+    </dependency>
+    <dependency ref="pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"/>
+    <dependency ref="pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"/>
+    <dependency ref="pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git">
+      <dependency ref="pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+      <dependency ref="pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+      <dependency ref="pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store"/>
+    </dependency>
+    <dependency ref="pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom">
+      <dependency ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
+      <dependency ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router">
+      <dependency ref="pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git">
+      <dependency ref="pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git">
+      <dependency ref="pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git"/>
+      <dependency ref="pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"/>
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    <dependency ref="pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git">
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+      <dependency ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"/>
+    </dependency>
+    <dependency ref="pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git"/>
+    <dependency ref="pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"/>
+    <dependency ref="pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git"/>
+    <dependency ref="pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler"/>
+    <dependency ref="pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store">
+      <dependency ref="pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"/>
+    </dependency>
+    <dependency ref="pkg:npm/web-vitals@2.1.4?vcs_url=git%2Bhttps%3A//github.com/GoogleChrome/web-vitals.git"/>
+  </dependencies>
+</bom>

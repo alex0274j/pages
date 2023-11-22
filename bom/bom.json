@@ -1,0 +1,1421 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata": {
+    "tools": [
+      {
+        "vendor": "@cyclonedx",
+        "name": "cyclonedx-library",
+        "version": "6.0.0",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-javascript-library/issues",
+            "type": "issue-tracker",
+            "comment": "as detected from PackageJson property \"bugs.url\""
+          },
+          {
+            "url": "git+https://github.com/CycloneDX/cyclonedx-javascript-library.git",
+            "type": "vcs",
+            "comment": "as detected from PackageJson property \"repository.url\""
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-javascript-library#readme",
+            "type": "website",
+            "comment": "as detected from PackageJson property \"homepage\""
+          }
+        ]
+      },
+      {
+        "vendor": "@cyclonedx",
+        "name": "webpack-plugin",
+        "version": "3.8.2",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-webpack-plugin/issues",
+            "type": "issue-tracker",
+            "comment": "as detected from PackageJson property \"bugs.url\""
+          },
+          {
+            "url": "git+https://github.com/CycloneDX/cyclonedx-webpack-plugin.git",
+            "type": "vcs",
+            "comment": "as detected from PackageJson property \"repository.url\""
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-webpack-plugin#readme",
+            "type": "website",
+            "comment": "as detected from PackageJson property \"homepage\""
+          }
+        ]
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "fusion-auth",
+      "group": "@minebea",
+      "version": "0.1.0",
+      "bom-ref": "pkg:npm/%40minebea/fusion-auth@0.1.0",
+      "purl": "pkg:npm/%40minebea/fusion-auth@0.1.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/alex0274j/pages",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "runtime",
+      "group": "@babel",
+      "version": "7.22.11",
+      "bom-ref": "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
+      "author": "The Babel Team",
+      "description": "babel's modular runtime helpers",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
+      "externalReferences": [
+        {
+          "url": "https://github.com/babel/babel/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/babel/babel.git#packages/babel-runtime",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://babel.dev/docs/en/next/babel-runtime",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hmi",
+      "group": "@minebea",
+      "version": "0.3.0-alpha.351",
+      "bom-ref": "pkg:npm/%40minebea/hmi@0.3.0-alpha.351",
+      "author": "Minebea Intec GmbH",
+      "description": "Minebea Intec reusable WEB-HMI",
+      "licenses": [
+        {
+          "license": {
+            "name": ""
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40minebea/hmi@0.3.0-alpha.351"
+    },
+    {
+      "type": "library",
+      "name": "kendo-theme-bootstrap",
+      "group": "@progress",
+      "version": "5.4.0",
+      "bom-ref": "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
+      "author": "Progress",
+      "description": "Bootstrap theme for Kendo UI",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
+      "externalReferences": [
+        {
+          "url": "https://github.com/telerik/kendo-themes/issues/new?labels=bug,T:Bootstrap&template=bug_report.md",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/telerik/kendo-themes.git#packages/bootstrap",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://github.com/telerik/kendo-themes/tree/master/packages/bootstrap",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "animated",
+      "group": "@react-spring",
+      "version": "9.7.3",
+      "bom-ref": "pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "author": "Paul Henschel",
+      "description": "Animated component props for React",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pmndrs/react-spring/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/pmndrs/react-spring.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/pmndrs/react-spring#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "core",
+      "group": "@react-spring",
+      "version": "9.7.3",
+      "bom-ref": "pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "author": "Paul Henschel",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pmndrs/react-spring/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/pmndrs/react-spring.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/pmndrs/react-spring#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "shared",
+      "group": "@react-spring",
+      "version": "9.7.3",
+      "bom-ref": "pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "author": "Paul Henschel",
+      "description": "Globals and shared modules",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pmndrs/react-spring/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/pmndrs/react-spring.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/pmndrs/react-spring#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "types",
+      "group": "@react-spring",
+      "version": "9.7.3",
+      "bom-ref": "pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "author": "Paul Henschel",
+      "description": "Internal package with TypeScript stuff",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pmndrs/react-spring/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/pmndrs/react-spring.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/pmndrs/react-spring#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "web",
+      "group": "@react-spring",
+      "version": "9.7.3",
+      "bom-ref": "pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "author": "Paul Henschel",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pmndrs/react-spring/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/pmndrs/react-spring.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/pmndrs/react-spring#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "toolkit",
+      "group": "@reduxjs",
+      "version": "1.9.5",
+      "bom-ref": "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+      "author": "Mark Erikson",
+      "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/reduxjs/redux-toolkit/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/reduxjs/redux-toolkit.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://redux-toolkit.js.org",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "router",
+      "group": "@remix-run",
+      "version": "1.8.0",
+      "bom-ref": "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+      "author": "Remix Software",
+      "description": "Nested/Data-driven/Framework-agnostic Routing",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+      "externalReferences": [
+        {
+          "url": "https://github.com/remix-run/react-router/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/remix-run/react-router.git#packages/router",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://github.com/remix-run/react-router#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hooks",
+      "group": "@restart",
+      "version": "0.4.11",
+      "bom-ref": "pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git",
+      "author": "Jason Quense",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/react-restart/hooks/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/jquense/react-common-hooks.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/react-restart/hooks#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "ui",
+      "group": "@restart",
+      "version": "1.6.6",
+      "bom-ref": "pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git",
+      "author": "Jason Quense",
+      "description": "Utilities for creating robust overlay components",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/react-restart/ui/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/react-restart/ui.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/react-restart/ui#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "classnames",
+      "version": "2.3.2",
+      "bom-ref": "pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git",
+      "author": "Jed Watson",
+      "description": "A simple utility for conditionally joining classNames together",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/JedWatson/classnames/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/JedWatson/classnames.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/JedWatson/classnames#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "css-loader",
+      "version": "6.8.1",
+      "bom-ref": "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git",
+      "author": "Tobias Koppers @sokra",
+      "description": "css loader module for webpack",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/webpack-contrib/css-loader/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/webpack-contrib/css-loader.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/webpack-contrib/css-loader",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "dom-helpers",
+      "version": "5.2.1",
+      "bom-ref": "pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git",
+      "author": "Jason Quense",
+      "description": "tiny modular DOM lib for ie9+",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/react-bootstrap/dom-helpers/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/react-bootstrap/dom-helpers.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/react-bootstrap/dom-helpers#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hoist-non-react-statics",
+      "version": "3.3.2",
+      "bom-ref": "pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git",
+      "author": "Michael Ridgway",
+      "description": "Copies non-react specific statics from a child component to a parent component",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/mridgway/hoist-non-react-statics/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git://github.com/mridgway/hoist-non-react-statics.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/mridgway/hoist-non-react-statics#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "immer",
+      "version": "9.0.21",
+      "bom-ref": "pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git",
+      "author": "Michel Weststrate",
+      "description": "Create your next immutable state by mutating the current one",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/immerjs/immer/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/immerjs/immer.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/immerjs/immer#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "prop-types",
+      "version": "15.8.1",
+      "bom-ref": "pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git",
+      "description": "Runtime type checking for React props and similar objects.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/facebook/prop-types/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/facebook/prop-types.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://facebook.github.io/react/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-bootstrap",
+      "version": "2.3.1",
+      "bom-ref": "pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git",
+      "author": "Stephen J. Collings",
+      "description": "Bootstrap 5 components built with React",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/react-bootstrap/react-bootstrap/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/react-bootstrap/react-bootstrap.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://react-bootstrap.github.io/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "18.2.0",
+      "bom-ref": "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+      "description": "React package for working with the DOM.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+      "externalReferences": [
+        {
+          "url": "https://github.com/facebook/react/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/facebook/react.git#packages/react-dom",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://reactjs.org/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-is",
+      "version": "16.13.1",
+      "bom-ref": "pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is",
+      "description": "Brand checking of React Elements.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is",
+      "externalReferences": [
+        {
+          "url": "https://github.com/facebook/react/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/facebook/react.git#packages/react-is",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://reactjs.org/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-is",
+      "version": "18.2.0",
+      "bom-ref": "pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is",
+      "description": "Brand checking of React Elements.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is",
+      "externalReferences": [
+        {
+          "url": "https://github.com/facebook/react/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/facebook/react.git#packages/react-is",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://reactjs.org/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-redux",
+      "version": "8.1.2",
+      "bom-ref": "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+      "author": "Dan Abramov",
+      "description": "Official React bindings for Redux",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/reduxjs/react-redux/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/reduxjs/react-redux.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/reduxjs/react-redux",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "6.15.0",
+      "bom-ref": "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+      "author": "Remix Software",
+      "description": "Declarative routing for React web applications",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+      "externalReferences": [
+        {
+          "url": "https://github.com/remix-run/react-router/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/remix-run/react-router.git#packages/react-router-dom",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://github.com/remix-run/react-router#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-router",
+      "version": "6.15.0",
+      "bom-ref": "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+      "author": "Remix Software",
+      "description": "Declarative routing for React",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+      "externalReferences": [
+        {
+          "url": "https://github.com/remix-run/react-router/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/remix-run/react-router.git#packages/react-router",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://github.com/remix-run/react-router#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-spring",
+      "version": "9.7.2",
+      "bom-ref": "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "author": "Paul Henschel",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/pmndrs/react-spring/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/pmndrs/react-spring.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/pmndrs/react-spring#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react-transition-group",
+      "version": "4.4.5",
+      "bom-ref": "pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git",
+      "description": "A react component toolset for managing animations",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/reactjs/react-transition-group/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/reactjs/react-transition-group.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/reactjs/react-transition-group#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "18.2.0",
+      "bom-ref": "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
+      "description": "React is a JavaScript library for building user interfaces.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
+      "externalReferences": [
+        {
+          "url": "https://github.com/facebook/react/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/facebook/react.git#packages/react",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://reactjs.org/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "redux-persist",
+      "version": "6.0.0",
+      "bom-ref": "pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git",
+      "description": "persist and rehydrate redux stores",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/rt2zz/redux-persist/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/rt2zz/redux-persist.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/rt2zz/redux-persist#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "redux-thunk",
+      "version": "2.4.2",
+      "bom-ref": "pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git",
+      "author": "Dan Abramov",
+      "description": "Thunk middleware for Redux.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/reduxjs/redux-thunk/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/reduxjs/redux-thunk.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/reduxjs/redux-thunk",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "redux",
+      "version": "4.2.1",
+      "bom-ref": "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git",
+      "description": "Predictable state container for JavaScript apps",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/reduxjs/redux/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/reduxjs/redux.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "http://redux.js.org",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "reselect",
+      "version": "4.1.8",
+      "bom-ref": "pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git",
+      "description": "Selectors for Redux.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/reduxjs/reselect/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/reduxjs/reselect.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/reduxjs/reselect#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "scheduler",
+      "version": "0.23.0",
+      "bom-ref": "pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler",
+      "description": "Cooperative scheduler for the browser environment.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler",
+      "externalReferences": [
+        {
+          "url": "https://github.com/facebook/react/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/facebook/react.git#packages/scheduler",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://reactjs.org/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "use-sync-external-store",
+      "version": "1.2.0",
+      "bom-ref": "pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store",
+      "description": "Backwards compatible shim for React's useSyncExternalStore. Works with any React that supports hooks.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store",
+      "externalReferences": [
+        {
+          "url": "https://github.com/facebook/react/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/facebook/react.git#packages/use-sync-external-store",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://github.com/facebook/react#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "web-vitals",
+      "version": "2.1.4",
+      "bom-ref": "pkg:npm/web-vitals@2.1.4?vcs_url=git%2Bhttps%3A//github.com/GoogleChrome/web-vitals.git",
+      "author": "Philip Walton",
+      "description": "Easily measure performance metrics in JavaScript",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/web-vitals@2.1.4?vcs_url=git%2Bhttps%3A//github.com/GoogleChrome/web-vitals.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/GoogleChrome/web-vitals/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/GoogleChrome/web-vitals.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/GoogleChrome/web-vitals#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime"
+    },
+    {
+      "ref": "pkg:npm/%40minebea/fusion-auth@0.1.0",
+      "dependsOn": [
+        "pkg:npm/%40minebea/hmi@0.3.0-alpha.351",
+        "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
+        "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+        "pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+        "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+        "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+        "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+        "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
+        "pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git",
+        "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40minebea/hmi@0.3.0-alpha.351",
+      "dependsOn": [
+        "pkg:npm/%40babel/runtime@7.22.11?vcs_url=git%2Bhttps%3A//github.com/babel/babel.git#packages/babel-runtime",
+        "pkg:npm/%40minebea/fusion-auth@0.1.0",
+        "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40progress/kendo-theme-bootstrap@5.4.0?vcs_url=git%2Bhttps%3A//github.com/telerik/kendo-themes.git#packages/bootstrap",
+      "dependsOn": [
+        "pkg:npm/%40minebea/fusion-auth@0.1.0",
+        "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "dependsOn": [
+        "pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "dependsOn": [
+        "pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "dependsOn": [
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40react-spring/types@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"
+    },
+    {
+      "ref": "pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "dependsOn": [
+        "pkg:npm/%40react-spring/animated@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/%40react-spring/core@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/%40react-spring/shared@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40reduxjs/toolkit@1.9.5?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-toolkit.git",
+      "dependsOn": [
+        "pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git",
+        "pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git",
+        "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git",
+        "pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router"
+    },
+    {
+      "ref": "pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git",
+      "dependsOn": [
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git",
+      "dependsOn": [
+        "pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git",
+        "pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git"
+    },
+    {
+      "ref": "pkg:npm/css-loader@6.8.1?vcs_url=git%2Bhttps%3A//github.com/webpack-contrib/css-loader.git"
+    },
+    {
+      "ref": "pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git"
+    },
+    {
+      "ref": "pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git",
+      "dependsOn": [
+        "pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"
+      ]
+    },
+    {
+      "ref": "pkg:npm/immer@9.0.21?vcs_url=git%2Bhttps%3A//github.com/immerjs/immer.git"
+    },
+    {
+      "ref": "pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git"
+    },
+    {
+      "ref": "pkg:npm/react-bootstrap@2.3.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/react-bootstrap.git",
+      "dependsOn": [
+        "pkg:npm/%40restart/hooks@0.4.11?vcs_url=git%2Bhttps%3A//github.com/jquense/react-common-hooks.git",
+        "pkg:npm/%40restart/ui@1.6.6?vcs_url=git%2Bhttps%3A//github.com/react-restart/ui.git",
+        "pkg:npm/classnames@2.3.2?vcs_url=git%2Bhttps%3A//github.com/JedWatson/classnames.git",
+        "pkg:npm/dom-helpers@5.2.1?vcs_url=git%2Bhttps%3A//github.com/react-bootstrap/dom-helpers.git",
+        "pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+        "pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+      "dependsOn": [
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
+        "pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-is@16.13.1?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"
+    },
+    {
+      "ref": "pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is"
+    },
+    {
+      "ref": "pkg:npm/react-redux@8.1.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/react-redux.git",
+      "dependsOn": [
+        "pkg:npm/hoist-non-react-statics@3.3.2?vcs_url=git%3A//github.com/mridgway/hoist-non-react-statics.git",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+        "pkg:npm/react-is@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-is",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
+        "pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-router-dom@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router-dom",
+      "dependsOn": [
+        "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+        "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-router@6.15.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/react-router",
+      "dependsOn": [
+        "pkg:npm/%40remix-run/router@1.8.0?vcs_url=git%2Bhttps%3A//github.com/remix-run/react-router.git#packages/router",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-spring@9.7.2?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git",
+      "dependsOn": [
+        "pkg:npm/%40react-spring/web@9.7.3?vcs_url=git%2Bhttps%3A//github.com/pmndrs/react-spring.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react-transition-group@4.4.5?vcs_url=git%2Bhttps%3A//github.com/reactjs/react-transition-group.git",
+      "dependsOn": [
+        "pkg:npm/prop-types@15.8.1?vcs_url=git%2Bhttps%3A//github.com/facebook/prop-types.git",
+        "pkg:npm/react-dom@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react-dom",
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+    },
+    {
+      "ref": "pkg:npm/redux-persist@6.0.0?vcs_url=git%2Bhttps%3A//github.com/rt2zz/redux-persist.git",
+      "dependsOn": [
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react",
+        "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"
+      ]
+    },
+    {
+      "ref": "pkg:npm/redux-thunk@2.4.2?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux-thunk.git"
+    },
+    {
+      "ref": "pkg:npm/redux@4.2.1?vcs_url=git%2Bhttps%3A//github.com/reduxjs/redux.git"
+    },
+    {
+      "ref": "pkg:npm/reselect@4.1.8?vcs_url=git%2Bhttps%3A//github.com/reduxjs/reselect.git"
+    },
+    {
+      "ref": "pkg:npm/scheduler@0.23.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/scheduler"
+    },
+    {
+      "ref": "pkg:npm/use-sync-external-store@1.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/use-sync-external-store",
+      "dependsOn": [
+        "pkg:npm/react@18.2.0?vcs_url=git%2Bhttps%3A//github.com/facebook/react.git#packages/react"
+      ]
+    },
+    {
+      "ref": "pkg:npm/web-vitals@2.1.4?vcs_url=git%2Bhttps%3A//github.com/GoogleChrome/web-vitals.git"
+    }
+  ]
+}
