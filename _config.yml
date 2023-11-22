@@ -1,4 +1,6 @@
 title: Pages title
+theme: jekyll-theme-minimal
+show_downloads: true
 kramdown:
   auto_ids          : true
   entity_output     : as_char
