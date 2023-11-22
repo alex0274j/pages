@@ -1,0 +1,50 @@
+.modal-content .modal-header {
+  background-color: #153d8a !important;
+  color: white;
+}
+
+.modal-content .modal-header .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.modal-content .modal-title {
+  font-size: 16px !important;
+}
+
+.modal-content .modal-body.message {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal-content .modal-body.message minebea-input {
+  padding-left: 20px;
+  padding-right: 17px;
+}
+
+.modal-content .modal-body.message span {
+  margin: 12px 25px;
+  display: grid;
+}
+
+.modal-body.message minebea-input:nth-child(even) {
+  background-color: rgba(234, 234, 234, 0.6);
+}
+
+.modal-content .modal-footer {
+  border-top: 1px solid #9797972e !important;
+}
+
+#usermenu div.row:last-of-type {
+  background-color: #ededed;
+  border-top: 1px solid #9797972e !important;
+}
+
+#usermenu .inner.wc {
+  padding-left: 50%;
+}
+
+.modal-dialog minebea-input {
+  --input-width: 200px;
+}

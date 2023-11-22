@@ -1,28 +1,68 @@
 {
-  "name": "page-demo",
+  "name": "@minebea/fusion-auth",
   "version": "0.1.0",
+  "homepage": "https://alex0274j.github.io/pages",
   "private": true,
-  "homepage": "https://alex0274j.github.io/pages/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
+    "@minebea/hmi": "^0.3.0-alpha.332",
+    "@minebea/react-grid-extension": "^1.5.31",
+    "@progress/kendo-data-query": "^1.5.6",
+    "@progress/kendo-drawing": "^1.16.3",
+    "@progress/kendo-licensing": "^1.3.0",
+    "@progress/kendo-react-animation": "5.3.*",
+    "@progress/kendo-react-common": "5.3.*",
+    "@progress/kendo-react-data-tools": "5.3.*",
+    "@progress/kendo-react-dateinputs": "5.3.*",
+    "@progress/kendo-react-dropdowns": "5.3.*",
+    "@progress/kendo-react-grid": "5.3.*",
+    "@progress/kendo-react-indicators": "5.3.*",
+    "@progress/kendo-react-inputs": "5.11.*",
+    "@progress/kendo-react-intl": "5.3.*",
+    "@progress/kendo-react-treeview": "5.3.*",
+    "@progress/kendo-theme-bootstrap": "5.4.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.64",
-    "@types/react": "^18.2.38",
-    "@types/react-dom": "^18.2.17",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.6",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-redux": "^7.1.25",
+    "@types/react-transition-group": "^4.4.5",
+    "abort-controller": "^3.0.0",
+    "file-saver": "^2.0.5",
+    "jest-junit": "^16.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "2.3.1",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.8.2",
+    "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "react-spring": "^9.4.5",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "reduxjs-toolkit-persist": "^7.2.1",
+    "typescript": "4.6.4",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "autoprefixer": "10.4.5",
+    "postcss-preset-env": {
+      "autoprefixer": "10.4.5"
+    },
+    "nth-check": "^2.0.1"
+  },
   "scripts": {
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "craco build",
     "test": "react-scripts test",
+    "test:ci": "npm run test -- --coverage --ci --testResultsProcessor=\"jest-junit\" --watchAll=false",
+    "coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,7 +83,46 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!redux-persist)"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/src/__mocks__/styleMock.js"
+    }
+  },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@cyclonedx/webpack-plugin": "^3.7.0",
+    "@types/file-saver": "^2.0.5",
+    "@types/qrcode": "^1.5.0",
+    "@types/react-image-gallery": "^1.2.0",
+    "@types/react-router": "5.1.20",
+    "@types/react-router-dom": "5.3.3",
+    "@typescript-eslint/eslint-plugin": "5.54.1",
+    "@typescript-eslint/parser": "5.54.1",
+    "autoprefixer": "10.4.5",
+    "babel-eslint": "^10.1.0",
+    "del": "^7.0.0",
+    "eslint": "8.35.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "8.7.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-plugin-flowtype": "8.0.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jest": "27.2.1",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-testing-library": "^5.10.2",
+    "gh-pages": "^6.1.0",
+    "ms": "file:deps/ms-2.1.3.tgz",
+    "prettier": "2.8.4",
+    "react-test-renderer": "^18.2.0",
+    "shadow-dom-testing-library": "^1.11.0"
   }
 }

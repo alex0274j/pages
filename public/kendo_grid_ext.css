@@ -1,0 +1,17 @@
+.k-filtercell span .k-datepicker {
+  width: calc(100% - 65px);
+  border: unset;
+  border-radius: 2px;
+}
+
+.k-filtercell span .k-datepicker button.k-button {
+  border-radius: unset;
+  position: relative;
+  right: 1px;
+}
+
+.k-filtercell span .k-datepicker ~ .k-filtercell-operator {
+  float: right;
+  position: relative;
+  left: 1px;
+}
