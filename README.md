@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # pages
 
 ### this is a test github page
